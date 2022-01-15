@@ -1,0 +1,192 @@
+body{
+  margin: 0;
+}
+h1{
+  text-align: center;
+  font-family: Sacramento,sans-serif;
+  font-size: 45px;
+  color: #66BFBF;
+}
+.a-line{
+  text-align: center;
+  font-family: Merriweather,sans-serif;
+  font-size: 30px;
+  color: #66BFBF;
+  font-weight: normal;
+}
+.top-container{
+  background-color: #D1E8E4;
+  padding-top: 150px;
+}
+.cloud1{
+  position: absolute;
+  left: 830px;
+  top: 100px;
+}
+.cloud2{
+  position: absolute;
+  right: 900px;
+  bottom: 260px;
+}
+.mountain{
+  position: relative;
+  left: 400px;
+  right: 400px;
+}
+h3{
+  text-align: left;
+  font-family: Merriweather,sans-serif ;
+  font-size: 25px;
+  color: #11999E;
+}
+
+.linkedn-link{
+  font-size: 20px;
+  color: #11999E;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 30px;
+}
+
+/*middle container*/
+/*profile*/
+.Profile{
+  width: 60%;
+  border: 2px solid red;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.face{
+  width: 200px;
+  height: 150px;
+  padding-top: 18px;
+  float: left;
+}
+.abtme{
+ font-size: 30px;
+ font-family: Dongle,sans-serif;
+}
+
+/*skills*/
+.skills{
+  width: 60%;
+  border: 2px solid #32C1CD;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.developer{
+  width: 200px;
+  height:150px;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.skills-abt-me{
+  font-size: 30px;
+  font-family: Dongle,sans-serif;
+}
+
+/*activities*/
+.Activities{
+  width: 60%;
+  border: 2px solid blue;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+.fitness{
+  width: 200px;
+  height:150px;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.activities-abtme{
+  font-size: 30px;
+  font-family: Dongle,sans-serif;
+}
+
+/*challenge*/
+.challenge{
+  width: 60%;
+  border: 2px solid orange;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+.gym{
+  width: 200px;
+  height:150px;
+  margin-top: 25px;
+  margin-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.challenge-foru{
+  font-size: 30px;
+  font-family: Dongle,sans-serif;
+}
+.our-logo{
+  padding-left:500px;
+  padding-right: 500px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 350px;
+  height: 300px;
+}
+.btn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 18px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+.ch-details{
+  margin-top: 200px;
+  margin-left: 440px;
+  margin-right: 370px;
+}
+.fname{
+margin-top: 20px;
+}
+.verification{
+margin-top: 20px;
+}
+.age{
+margin-top: 20px;
+}
+.country{
+  margin-top: 20px;
+}
+#subbtn{
+  margin-top: 15px;
+  margin-left: 80px;
+}
+.forms{
+  margin-left: 80px;
+  position: fixed;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
