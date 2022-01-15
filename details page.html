@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Details</title>
+    <link rel="stylesheet" href="css styles/style.css">
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+    <source src="images/Network.mp4" type="video/mp4">
+    </video>
+    <div class="forms">
+      <form class="ch-details" action="message.html" method="post">
+         <div class="fname">
+          <label>Name : </label><input type="text" name="surname" placeholder="Enter your name"><br>
+         </div>
+         <div class="verification">
+           <label>Are you above 18 </label><input type="checkbox" name="verification" value=""><br />
+         </div>
+        <div class="age">
+          <label>Age : </label><input type="text" name="age" placeholder="Enter your age"><br>
+        </div>
+        <div class="country">
+          <label>Choose your country</label>
+          <select class="country" name="place">
+            <option value="India">India</option>
+            <option value="London">London</option>
+            <option value="Dubai">Dubai</option>
+          </select><br>
+        </div>
+
+        <input type="submit" id="subbtn" name="submitbutton" value="SUBMIT">
+    </div>
+
+
+
+
+    </form>
+
+  </body>
+</html>
